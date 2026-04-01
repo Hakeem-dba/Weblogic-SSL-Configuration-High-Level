@@ -2,7 +2,7 @@
 
 ---
 
-# 📖 Overview
+# Overview
 
 This guide provides a **complete, practical, and production-oriented explanation** of SSL configuration in:
 
@@ -18,7 +18,7 @@ It covers:
 
 ---
 
-# 🔐 1. Core Concept: Identity vs Trust
+# 1. Core Concept: Identity vs Trust
 
 Understanding this section is critical — everything in SSL depends on it.
 
@@ -62,7 +62,7 @@ This is used when your server connects to other systems.
 
 ---
 
-## 🎯 Golden Rule
+## Golden Rule
 
 | Component | Purpose |
 |----------|--------|
@@ -71,7 +71,7 @@ This is used when your server connects to other systems.
 
 ---
 
-# 📦 2. Keystore Types & Options
+# 2. Keystore Types & Options
 
 ---
 
@@ -115,7 +115,7 @@ This is used when your server connects to other systems.
 
 ---
 
-# ⚠️ 3. Understanding cacerts
+# 3. Understanding cacerts
 
 ---
 
@@ -141,7 +141,7 @@ $JAVA_HOME/lib/security/cacerts
 
 ---
 
-# 🔑 4. JKS vs PKCS12 vs cacerts
+# 4. JKS vs PKCS12 vs cacerts
 
 ---
 
@@ -164,7 +164,7 @@ $JAVA_HOME/lib/security/cacerts
 
 ---
 
-## 🎯 Recommendation
+## Recommendation
 
 | Use Case | Recommended |
 |--------|------------|
@@ -174,7 +174,7 @@ $JAVA_HOME/lib/security/cacerts
 
 ---
 
-# 🌐 5. SSL with Load Balancer
+# 5. SSL with Load Balancer
 
 ---
 
@@ -210,7 +210,7 @@ Client → HTTPS → LB → HTTPS → Backend
 
 ---
 
-# 🏆 6. Best Architecture for OAS
+# 6. Best Architecture for OAS
 
 ```
 
@@ -227,7 +227,7 @@ Client → LB (HTTPS)
 
 ---
 
-# 🔧 7. How to Enable HTTPS
+# 7. How to Enable HTTPS
 
 ---
 
@@ -267,7 +267,7 @@ Steps:
 
 ---
 
-# 📜 8. Certificate Types
+# 8. Certificate Types
 
 ---
 
@@ -295,7 +295,7 @@ Steps:
 
 ---
 
-# ⚠️ 9. Common Mistakes
+# 9. Common Mistakes
 
 ---
 
@@ -328,7 +328,7 @@ Cert: server01
 
 ---
 
-# 🧠 10. WebLogic Behind Load Balancer / OHS
+# 10. WebLogic Behind Load Balancer / OHS
 
 ---
 
@@ -345,7 +345,7 @@ Enable:
 
 ---
 
-# 🧠 11. REAL TROUBLESHOOTING CASES
+# 11. REAL TROUBLESHOOTING CASES
 
 ---
 
@@ -450,7 +450,7 @@ No identity key/certificate configured
 
 ---
 
-# 📋 12. What to Ask Before SSL Implementation
+# 12. What to Ask Before SSL Implementation
 
 - Certificate type?
 - Final URL?
@@ -460,7 +460,7 @@ No identity key/certificate configured
 
 ---
 
-# 🎯 13. Final Recommendations
+# 13. Final Recommendations
 
 ---
 
@@ -476,14 +476,3 @@ No identity key/certificate configured
 - Avoid demo identity
 - Confirm LB behavior
 
----
-
-# 🧩 14. Final Summary
-
-- Identity = who the server is
-- Trust = who the server trusts
-- cacerts = trust only
-- HTTPS requires identity
-- Load balancer design defines SSL approach
-
-Just tell me 👍
