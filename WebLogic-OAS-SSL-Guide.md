@@ -62,7 +62,7 @@ This is used when your server connects to other systems.
 
 ---
 
-## Golden Rule
+## Summary Table
 
 | Component | Purpose |
 |----------|--------|
