@@ -4,7 +4,7 @@
 
 # Overview
 
-This guide provides a **complete, practical, and production-oriented explanation** of SSL configuration in:
+This guide provides a complete, practical, and production-oriented explanation of SSL configuration in:
 
 - Oracle WebLogic Server
 - Oracle Analytics Server (OAS)
